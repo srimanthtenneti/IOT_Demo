@@ -3,7 +3,7 @@ Internet of things is one of the most booming areas of the 21st century. It is p
 
 ![Screenshot](imgs/img1.jpg)
 
-# Content
+## Content
 1. RTSP Video Stream
 2. Cloud push
 3. BLE aggrigator architecture
@@ -11,3 +11,10 @@ Internet of things is one of the most booming areas of the 21st century. It is p
 5. Requests introduction
 6. Applying Deep Learning on Video Streams
 7. Using Color Space transformations to build a simple day and night detector
+
+### 1.RTSP Video Stream
+In this project we will use RTSP to stream video over a Wi-Fi interface. The main hardware we would use is going to be a raspberry pi. The only requirement is that the raspi should have a camera and Wi-Fi capability. 
+
+The image below is a pi zero configure as the main streaming device.
+
+![Screenshot](imgs/raspi_stream.jpg)
