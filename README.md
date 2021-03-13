@@ -25,7 +25,13 @@ Steps to stream over RTSP:
             2. sudo apt-get install vlc
             3. raspivid -o – -t 0 -n | cvlc -vvv stream:///dev/stdin –sout ‘#rtp{sdp=rtsp://:8554/}’ :demux=h264
 
-This starts the datastream then open a mobile phone or laptop connected to the same Wi-Fi. Open VLC media player, goto network and type the url rtsp://ip address of your pi:8554/.To find out the ip of the raspi you can use "hostname -I". 
+This starts the datastream then open a mobile phone or laptop connected to the same Wi-Fi. Open VLC media player, goto network and type :
+
+            rtsp://ip address of your pi:8554/
+                        
+To find out the ip of the raspi you can use :
+
+            "hostname -I"
 
 With the following steps you would have successfully created a video stream over your local Wi-Fi network. This could later be used for video detection.
 
