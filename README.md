@@ -31,7 +31,7 @@ This starts the datastream then open a mobile phone or laptop connected to the s
                         
 To find out the ip of the raspi you can use :
 
-            "hostname -I"
+            hostname -I
 
 With the following steps you would have successfully created a video stream over your local Wi-Fi network. This could later be used for video detection.
 
